@@ -1,0 +1,10 @@
+:root {
+  /*  新语法 */
+  --color: #000;
+  /* css全局变量 可以通过var(变量名) 进行使用 */
+}
+
+div {
+  background-color: #000;
+  background-color: var(--color);
+}
